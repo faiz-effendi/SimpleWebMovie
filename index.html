@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nobarkuy</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <div class="main-banner">
+    <nav class="nav-style">
+      <div class="logo">
+        NOBARKUY
+      </div>
+      
+      <div class="choice">
+        <ul>
+          <li id="newMovie"><a href="">Home</a></li>
+          <li id="newMovie"><a href="#movies">Movie</a></li>
+          <li id="newMovie"><a href="#movies">TV Series</a></li>
+          <li id="newMovie"><a href="#movies">Trending</a></li>
+          <li id="newMovie"><a href="#movies">Genre</a></li>
+          <li id="newMovie"><a href="#movies">Country</a></li>
+
+        </ul>
+      </div>
+      
+      <!-- search container -->
+      <div class="search-box">
+        <a href="#movies" id="search">
+          <img src="img/loop.png">
+        </a>
+        <input type="text" placeholder="search" class="search" id="movie-search">
+        <!-- <div class="search-list" id="search-list">
+          <div class="search-list-item">
+            <div class="search-item-thumbnail">
+              <img src="img/anies.png">
+            </div>
+            <div class="search-item-info">
+              <h3>Anies Baswedan</h3>
+              <p>2024</p>
+            </div>
+          </div>
+        </div> -->
+      </div>
+      <!-- search container -->
+    </nav>
+
+    <div class="banner-title">
+      <h1>Loki Season 2</h1>
+      <p><b>Genre:</b> Sci-fi, action, drama, crime</p>
+      <p>Loki navigates an ever-expanding and increasingly dangerous multiverse in search of Sylvie, Judge Renslayer, Miss Minutes and the truth of what it means to possess free will and glorious purpose.</p>
+      <button class="banner-button">
+        <a href="https://youtu.be/vwSKatRviQo?si=im0fIdxZV_FwVV0t" target="_blank">
+          Watch Now!
+        </a>
+      </button>
+
+    </div>
+ 
+  </div>
+
+  <div class="movie-box" id="movies">
+    <h1>Result</h1>
+    <hr><br>
+
+    <div class="group-card" id="group-card">
+
+      <!-- Movie card -->
+      <!-- <div class="movie-card">
+        <img src="img/Loki_poster.png">
+        <h1>Loki Season 2</h1>
+        <div class="movie-other">
+          <p>2023</p>
+          <p class="movie-type">series</p>
+        </div>
+
+      </div> -->
+      <!-- End of Movie card -->
+
+    </div>
+      
+  </div>
+    
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

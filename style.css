@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700;900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'poppins', sans-serif;
+  color: white;
+  text-decoration: none;
+  scroll-behavior: smooth;
+  list-style: none;
+}
+
+body{
+  height: 100vh;
+  background-color: #111111
+}
+
+.nav-style{
+  z-index: 10;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12vh;
+}
+
+.search{
+  padding: 8px 15px;
+  font-size: 16px;
+  background: transparent;
+  border: none;
+  outline: none;
+}
+
+::placeholder{
+  font-size: 16px;
+  font-weight: 200;
+  color: white;
+}
+
+.search-box{
+  width: 30vh;
+  border-radius: 8px;
+  background-color: #3f3f3f;
+  display: flex;
+  align-items: center;
+}
+
+.search-box a{
+  width: 20px;
+  height: 20px;
+  padding-left: 1rem;
+  cursor: pointer;
+}
+
+.search-box a img{
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.choice ul{
+  font-size: 18px;
+  display: flex;
+  gap: 26px;
+}
+
+.choice ul li a{
+  font-weight: 300;
+  padding: 2px;
+  cursor: pointer;
+  transition: color 0.15s;
+}
+
+.choice ul li a:hover{
+  color: #4da9be;
+}
+
+.logo{
+  background-color: #4da9be;
+  font-weight: 600;
+  font-size: 28px;
+  padding: 0px 6px;
+  border-radius: 4px;
+}
+
+.main-banner{
+  height: 100vh;
+  background-image: url("img/Loki_poster.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding: 25px 60px;
+}
+
+.banner-title{
+  margin-top: 50vh;
+  margin-left: vh;
+  width: 65vh;
+}
+
+.banner-title h1{
+  font-weight: 500;
+}
+
+.banner-title p{
+  font-weight: 300;
+  font-size: 14px;
+  margin-bottom: 10px;
+  color: #bababa;
+}
+
+.banner-button{
+  background: transparent;
+  font-size: 16px;
+  padding: 8px 22px;
+  border: 2px solid #4da9be;
+  color: #4da9be;
+  border-radius: 50vh;
+  cursor: pointer;
+  font-weight: 500;
+  transition: 0.15s ease-in-out;
+}
+
+.banner-button:hover{
+  transform: scale(1.05);
+}
+
+.banner-button a{
+  color: #4da9be;
+  font-weight: 500;
+}
+
+.banner-title p b{
+  font-weight: 400;
+}
+
+.movie-box{
+  padding: 60px;
+  /* display: flex;
+  flex-wrap: wrap; */
+}
+
+.movie-other{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.movie-type{
+  font-family: arial, sans-serif;
+  border: 2px solid #4da9be;
+  color: #4da9be;
+  padding: 0.3rem 0.5rem;
+  border-radius: 6px;
+}
+
+.group-card{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+}
+
+.movie-card{
+  width: 210px;
+}
+
+.movie-card img{
+  width: 210px;
+  height: 310px;
+  object-fit: cover;
+}
+
+.movie-card h1{
+  margin-top: 4px;
+  width: 210px;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.movie-card p{
+  margin-top: 4px;
+  font-weight: 200;
+  font-size: 14px;
+}
+
+.movie-card p b{
+  font-weight: 400;
+}
